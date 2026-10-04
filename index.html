@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MetricsHub Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<header class="navbar-flex">
+    <a class="brand" href="#dashboard">Metrics<span>Hub</span></a>
+    <nav class="nav-links" aria-label="Điều hướng chính">
+        <a href="#dashboard">Home</a><a href="#strategy">About</a><a href="#dashboard">VeryLongGermanWordForDashboard</a><a href="#pricing">Contact</a>
+    </nav>
+    <a class="profile" href="#pricing">Profile ↗</a>
+</header>
+<main class="container py-4 py-lg-5">
+    <div class="intro"><div><p class="eyebrow">METRICSHUB / OVERVIEW</p><h1>Hiệu suất trong tầm tay.</h1><p class="text-secondary">Dữ liệu minh họa cho bài thực hành tái cấu trúc layout.</p></div><span class="status">● Demo dashboard</span></div>
+    <section id="dashboard" class="grid-dashboard" aria-label="Dashboard dạng Bento">
+        <article class="widget widget-large"><div class="widget-top"><h2>Chart A · Doanh thu</h2><span>2 cột × 2 hàng</span></div><strong class="metric">₫128,4 triệu</strong><p class="growth">↗ 18,6% so với tháng trước</p><svg class="chart" viewBox="0 0 600 210" role="img" aria-label="Biểu đồ doanh thu minh họa tăng từ tháng 1 đến tháng 6"><path d="M20 180H580 M20 120H580 M20 60H580" stroke="#e4e9f0" fill="none"/><path d="M20 175L130 145L240 155L350 90L460 105L580 30L580 190L20 190Z" fill="#e5eaff"/><path d="M20 175L130 145L240 155L350 90L460 105L580 30" stroke="#5264d9" stroke-width="5" fill="none" stroke-linejoin="round"/><g font-size="14" fill="#637085"><text x="20" y="208">T1</text><text x="130" y="208">T2</text><text x="240" y="208">T3</text><text x="350" y="208">T4</text><text x="460" y="208">T5</text><text x="560" y="208">T6</text></g></svg></article>
+        <article class="widget"><h2>Chart C · Người dùng</h2><div class="widget-value"><span class="metric-icon" aria-hidden="true">◎</span><strong class="metric small-metric">24.680</strong></div><p class="growth">↗ 12,2% tăng trưởng</p></article>
+        <article class="widget"><h2>Chart D · Chuyển đổi</h2><strong class="metric small-metric">6,8%</strong><div class="conversion" role="img" aria-label="Tỷ lệ chuyển đổi 6,8 phần trăm"><span></span></div><p class="text-secondary mb-0">Mục tiêu minh họa: 10%</p></article>
+        <article class="widget widget-wide"><div class="widget-top"><h2>Chart B · Hoạt động</h2><span>2 cột</span></div><div class="activity"><span class="metric-icon" aria-hidden="true">↗</span><div><strong>1.284 sự kiện hôm nay</strong><p class="text-secondary mb-0">Flexbox căn biểu tượng và nội dung bên trong widget Grid.</p></div></div></article>
+        <article class="widget"><h2>Trạng thái hệ thống</h2><div class="activity"><span class="status-dot"></span><strong>Hoạt động ổn định</strong></div><p class="text-secondary mt-3 mb-0">Dữ liệu mô phỏng</p></article>
+    </section>
+    <section id="pricing" class="mt-5" aria-labelledby="pricing-title">
+        <p class="eyebrow">PLANS</p><h2 id="pricing-title" class="mb-4">Chọn gói phù hợp</h2>
+        <div class="row g-4">
+            <div class="col-12 col-md-4"><div class="card h-100"><div class="card-body d-flex flex-column p-4"><h3 class="h5">Cơ bản</h3><p class="display-6 fw-semibold">Miễn phí</p><p class="text-secondary">Dành cho dự án cá nhân.</p><ul class="ps-3"><li>3 dashboard</li><li>Báo cáo cơ bản</li><li>Hỗ trợ cộng đồng</li></ul><a class="btn btn-outline-primary mt-auto" href="mailto:hello@example.com?subject=MetricsHub%20Basic">Liên hệ</a></div></div></div>
+            <div class="col-12 col-md-4"><div class="card h-100 border-primary"><div class="card-body d-flex flex-column p-4"><span class="badge bg-primary align-self-start mb-2">Phổ biến</span><h3 class="h5">Nâng cao</h3><p class="display-6 fw-semibold">₫299K<small class="fs-6 text-secondary">/tháng</small></p><p class="text-secondary">Dành cho nhóm đang phát triển.</p><ul class="ps-3"><li>20 dashboard</li><li>Báo cáo nâng cao</li><li>Hỗ trợ email</li></ul><a class="btn btn-primary mt-auto" href="mailto:hello@example.com?subject=MetricsHub%20Pro">Liên hệ</a></div></div></div>
+            <div class="col-12 col-md-4"><div class="card h-100"><div class="card-body d-flex flex-column p-4"><h3 class="h5">Doanh nghiệp</h3><p class="display-6 fw-semibold">Tùy chỉnh</p><p class="text-secondary">Dành cho tổ chức quy mô lớn.</p><ul class="ps-3"><li>Dashboard không giới hạn</li><li>Tích hợp riêng</li><li>Hỗ trợ chuyên biệt</li></ul><a class="btn btn-outline-primary mt-auto" href="mailto:hello@example.com?subject=MetricsHub%20Enterprise">Liên hệ</a></div></div></div>
+        </div>
+    </section>
+    <section id="strategy" class="mt-5"><h2 class="h4">Ba vùng, ba công cụ</h2><p class="text-secondary">Navbar: Flexbox theo nội dung. Dashboard: CSS Grid theo hai chiều. Pricing: Bootstrap 12 cột, mỗi gói chiếm 4 cột từ breakpoint md.</p></section>
+</main>
+<footer class="text-center text-secondary py-4">© 2026 MetricsHub · Bài thực hành layout · Giá và dữ liệu minh họa</footer>
+</body>
+</html>
